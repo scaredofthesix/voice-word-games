@@ -27,6 +27,7 @@
 - **Excluded Lychee links + justification:**
   - `localhost` / `127.0.0.1` — dev-only URLs not reachable from CI.
   - `https://ai.studio/...` — AI Studio app pages require an authenticated Google session and redirect anonymous CI runners; **manually verified in a browser** (loads the Voice Word Jumper app).
+  - `https://www.figma.com/design/...` — Figma returns 403 Forbidden to anonymous clients until public link sharing is enabled on the file; **manually verified in the Figma editor** (the team prototype file opens).
 
 ## Customer review
 - [Customer meeting summary](./customer-meeting-summary.md)
