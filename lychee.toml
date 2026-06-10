@@ -1,0 +1,35 @@
+# Lychee link checker configuration
+# Docs: https://github.com/lycheeverse/lychee
+
+# Treat these HTTP statuses as success (429 = rate-limited, not broken).
+accept = [200, 206, 429]
+
+# Network behaviour
+max_retries = 3
+timeout = 20
+max_concurrency = 8
+
+# Use a realistic user agent so well-behaved hosts do not reject the bot.
+user_agent = "Mozilla/5.0 (compatible; lychee link checker)"
+
+# Do not crawl dependency or build output.
+exclude_path = [
+  "node_modules",
+  "dist",
+  "build",
+]
+
+# Excluded links (justified). Verify these manually before submission and
+# record the justification + manual verification in reports/week2/README.md.
+exclude = [
+  # Localhost / dev-only URLs that are not reachable from CI.
+  "^https?://localhost",
+  "^https?://127\\.0\\.0\\.1",
+  # AI Studio app pages require an authenticated Google session and return
+  # auth redirects to anonymous CI runners; verified manually in a browser.
+  "^https://ai\\.studio/",
+]
+
+# Check links inside fenced code blocks too? Keep code-block URLs out to avoid
+# flagging illustrative examples.
+include_verbatim = false

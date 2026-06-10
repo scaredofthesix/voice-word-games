@@ -20,10 +20,12 @@
 - Run instructions: [root README](../../README.md#local-setup)
 
 ## Workflow & link checking
-- Minimal PR/MR template: _TODO link_
-- Reviewed PRs/MRs: _TODO links_
-- Lychee configuration: _TODO link_ · Latest successful protected-branch run: _TODO link_
-- Excluded Lychee links + justification + manual-verification confirmation: _TODO_
+- Minimal PR template: [.github/PULL_REQUEST_TEMPLATE.md](../../.github/PULL_REQUEST_TEMPLATE.md)
+- Reviewed PRs: _TODO — link(s) once the remote repo exists and a PR is reviewed_
+- Lychee configuration: [lychee.toml](../../lychee.toml) · Workflow: [.github/workflows/links.yml](../../.github/workflows/links.yml) · Latest successful protected-branch run: _TODO link_
+- **Excluded Lychee links + justification:**
+  - `localhost` / `127.0.0.1` — dev-only URLs not reachable from CI.
+  - `https://ai.studio/...` — AI Studio app pages require an authenticated Google session and redirect anonymous CI runners; **manually verified in a browser** (loads the Voice Word Jumper app).
 
 ## Customer review
 - [Customer meeting summary](./customer-meeting-summary.md)
