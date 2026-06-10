@@ -1,0 +1,11 @@
+{
+  "permissions": {
+    "allow": [
+      "Bash(git init *)",
+      "Bash(mkdir -p reports/week2/images)",
+      "Bash(git config *)",
+      "Bash(git add *)",
+      "Bash(git commit -q -m 'chore: scaffold Assignment 2 repository *)"
+    ]
+  }
+}
