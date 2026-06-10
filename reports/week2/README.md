@@ -14,7 +14,8 @@
 
 ## MVP v0
 - [MVP v0 report](./mvp-v0-report.md)
-- Deployment URL / runnable artifact: _TODO_
+- Deployment URL (Google Cloud Run): https://voice-word-jumper-316095696419.europe-west2.run.app/
+- AI Studio app: https://ai.studio/apps/fc8f058b-d06c-43b9-8ede-540d02401714
 - Public video demonstration (<2 min): _TODO_
 - Run instructions: [root README](../../README.md#local-setup)
 
