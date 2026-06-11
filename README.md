@@ -1,14 +1,14 @@
-# English Voice Games - Team 40
+# Voice Word Games - Team 40
 
-A browser-based **voice-controlled English learning portal for children**. The child speaks the target word to trigger in-game actions - **voice is the only controller**. Features two games: Voice Racer (lane racing) and Bubble Popper, with more planned.
+A browser-based **voice-controlled English learning portal for children**. The child speaks the target word to trigger in-game actions - **voice is the only controller**. Features two games: Voice Racer (lane racing) and Voice Bubble Popper, with more planned.
 
-- **Live MVP v0 (Google Cloud Run):** https://voice-word-jumper-316095696419.europe-west2.run.app/
-- **AI Studio app:** https://ai.studio/apps/fc8f058b-d06c-43b9-8ede-540d02401714
+- **Live MVP v0:** _TODO - link will be added after the team deploys the new build_
+- **AI Studio app:** _TODO - link will be added if the team publishes the app on AI Studio_
 - **License:** [MIT](./LICENSE) (see *Attribution* below)
 - **Assignment 2 submission index:** [reports/week2/README.md](./reports/week2/README.md)
 - **MVP v0 report:** [reports/week2/mvp-v0-report.md](./reports/week2/mvp-v0-report.md)
 
-> **Browser support:** voice recognition uses the Web Speech API and is reliable only in **Google Chrome**. A non-voice "mouse-click jumps" fallback is available in other browsers.
+> **Browser support:** voice recognition uses the Web Speech API and works only in **Google Chrome**; other browsers are not supported.
 
 ## Tech stack
 
