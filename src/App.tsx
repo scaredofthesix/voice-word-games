@@ -481,7 +481,7 @@ export default function App() {
               </div>
               <div className="text-center sm:text-left">
                 <h1 className="text-xl md:text-2xl font-black tracking-wider text-slate-900 uppercase drop-shadow-[0_2px_0_rgba(255,255,255,1)]">
-                  ENGLISH VOICE GAMES
+                  VOICE WORD GAMES
                 </h1>
                 <p className="text-[10px] text-purple-900 tracking-widest font-black uppercase bg-white/70 border-2 border-slate-900 px-2 py-0.5 rounded-full inline-block mt-0.5">
                   ⭐ KIDS LEARNING HUB
@@ -577,7 +577,7 @@ export default function App() {
                 </div>
               </div>
               <h1 className="text-3xl md:text-4xl font-black tracking-wider text-slate-900 uppercase drop-shadow-[0_3px_0_rgba(255,255,255,1)]">
-                ENGLISH VOICE GAMES!
+                VOICE WORD GAMES!
               </h1>
               <p className="text-xs text-slate-700 font-extrabold max-w-md mx-auto leading-relaxed">
                 Play English games with your voice! Match words, pop balloons, and win trophies!

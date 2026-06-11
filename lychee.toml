@@ -25,9 +25,6 @@ exclude = [
   # Localhost / dev-only URLs that are not reachable from CI.
   "^https?://localhost",
   "^https?://127\\.0\\.0\\.1",
-  # AI Studio app pages require an authenticated Google session and return
-  # auth redirects to anonymous CI runners; verified manually in a browser.
-  "^https://ai\\.studio/",
   # Figma design files return 403 to anonymous clients until public link
   # sharing is enabled on the file; verified manually in the Figma editor.
   "^https://www\\.figma\\.com/design/",

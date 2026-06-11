@@ -8,26 +8,25 @@
     <text x="123" y="80" font-family="Inter" font-size="22" font-weight="700" fill="#1B2A4A" text-anchor="middle">←  Home</text>
   </g>
   <text x="640" y="160" font-family="Inter" font-size="52" font-weight="700" fill="#1B2A4A" text-anchor="middle">Choose your game</text>
-  <g id="card-jumper">
+  <g id="card-voice-racer">
     <rect x="140" y="220" width="300" height="420" rx="32" fill="#FFFFFF" stroke="#2F80ED" stroke-width="4"/>
     <rect x="170" y="250" width="240" height="200" rx="24" fill="#CCEBFF"/>
-    <circle cx="290" cy="350" r="54" fill="#FFB100"/>
-    <ellipse cx="270" cy="339" rx="8" ry="11" fill="#1B2A4A"/>
-    <ellipse cx="310" cy="339" rx="8" ry="11" fill="#1B2A4A"/>
-    <rect x="270" y="366" width="40" height="14" rx="7" fill="#1B2A4A"/>
+    <text x="290" y="378" font-family="Inter" font-size="72" text-anchor="middle">🚗</text>
     <text x="290" y="505" font-family="Inter" font-size="28" font-weight="700" fill="#1B2A4A" text-anchor="middle">Voice Racer</text>
-    <text x="290" y="538" font-family="Inter" font-size="18" fill="#8C949F" text-anchor="middle">Say the word - race</text>
+    <text x="290" y="538" font-family="Inter" font-size="18" fill="#8C949F" text-anchor="middle">Say the word - steer</text>
     <text x="290" y="560" font-family="Inter" font-size="18" fill="#8C949F" text-anchor="middle">to the right lane!</text>
     <rect x="190" y="578" width="200" height="52" rx="26" fill="#2F80ED"/>
     <text x="290" y="612" font-family="Inter" font-size="22" font-weight="700" fill="#FFFFFF" text-anchor="middle">PLAY</text>
   </g>
-  <g id="card-word-builder">
-    <rect x="500" y="220" width="300" height="420" rx="32" fill="#EDF1F5"/>
-    <rect x="530" y="250" width="240" height="200" rx="24" fill="#FFFFFF"/>
-    <text x="650" y="378" font-family="Inter" font-size="72" text-anchor="middle">🧱</text>
-    <text x="650" y="505" font-family="Inter" font-size="28" font-weight="700" fill="#8C949F" text-anchor="middle">Word Builder</text>
-    <rect x="570" y="565" width="160" height="44" rx="22" fill="#8C949F"/>
-    <text x="650" y="593" font-family="Inter" font-size="17" font-weight="700" fill="#FFFFFF" text-anchor="middle">COMING SOON</text>
+  <g id="card-bubble-popper">
+    <rect x="500" y="220" width="300" height="420" rx="32" fill="#FFFFFF" stroke="#2F80ED" stroke-width="4"/>
+    <rect x="530" y="250" width="240" height="200" rx="24" fill="#CCEBFF"/>
+    <text x="650" y="378" font-family="Inter" font-size="72" text-anchor="middle">🫧</text>
+    <text x="650" y="505" font-family="Inter" font-size="24" font-weight="700" fill="#1B2A4A" text-anchor="middle">Voice Bubble Popper</text>
+    <text x="650" y="538" font-family="Inter" font-size="18" fill="#8C949F" text-anchor="middle">Say the word -</text>
+    <text x="650" y="560" font-family="Inter" font-size="18" fill="#8C949F" text-anchor="middle">pop the bubble!</text>
+    <rect x="550" y="578" width="200" height="52" rx="26" fill="#2F80ED"/>
+    <text x="650" y="612" font-family="Inter" font-size="22" font-weight="700" fill="#FFFFFF" text-anchor="middle">PLAY</text>
   </g>
   <g id="card-sound-safari">
     <rect x="860" y="220" width="300" height="420" rx="32" fill="#EDF1F5"/>
