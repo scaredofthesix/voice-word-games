@@ -23,7 +23,6 @@ The interactive prototype refines how these are presented as the proposed MVP v1
 ## Current limitations, placeholders, and mocks
 - **Chrome-only** voice recognition (Web Speech API); other browsers are not supported.
 - **Word matching:** the matcher in `src/utils.ts` (`matchesWord`) uses phonetic and prefix rules. Overly permissive matching undermines the pronunciation-learning goal and is tracked as an open question (see [analysis.md](./analysis.md), affects US-04 / US-06).
-- The `@google/genai` / `GEMINI_API_KEY` are leftovers from the AI Studio template and are **not** used by the game code.
 - No backend: stats and settings persist only in browser `localStorage`; there is no parent/teacher account, progress sync, or custom word-list management yet (US-10, US-11).
 
 ## Local setup instructions
