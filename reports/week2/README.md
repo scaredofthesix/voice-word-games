@@ -17,7 +17,7 @@
 - [MVP v0 report](./mvp-v0-report.md)
 - Deployment URL: https://10.93.26.180:8085/ (hosted on the Innopolis VM; reachable from the Innopolis network/VPN). Open in Google Chrome and accept the self-signed certificate warning.
 - Public video demonstration (<2 min): https://disk.yandex.ru/i/3aCIJDDw9Tat4Q
-- Run instructions: [root README](../../README.md#local-setup)
+- Run instructions: [root README](../../README.md#1-local-development-setup)
 
 ## Workflow & link checking
 - Minimal PR template: [.github/PULL_REQUEST_TEMPLATE.md](../../.github/PULL_REQUEST_TEMPLATE.md)
