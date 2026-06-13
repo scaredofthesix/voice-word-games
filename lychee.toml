@@ -25,9 +25,12 @@ exclude = [
   # Localhost / dev-only URLs that are not reachable from CI.
   "^https?://localhost",
   "^https?://127\\.0\\.0\\.1",
-  # Figma design files return 403 to anonymous clients until public link
-  # sharing is enabled on the file; verified manually in the Figma editor.
-  "^https://www\\.figma\\.com/design/",
+  # Figma files (design / proto / board) return 403 to anonymous clients even
+  # with public view sharing enabled; verified manually in the browser.
+  "^https://www\\.figma\\.com/",
+  # MVP v0 deployment on the Innopolis VM: private IP + self-signed cert, not
+  # reachable from GitHub CI; verified manually on the Innopolis network.
+  "^https://10\\.93\\.26\\.180",
 ]
 
 # Check links inside fenced code blocks too? Keep code-block URLs out to avoid
