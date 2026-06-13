@@ -4,12 +4,11 @@
 MVP v0 is the runnable technical foundation of **Voice Games** - a browser-based voice-controlled learning portal for children. It is a React 19 + Vite + TypeScript application featuring two games (Voice Racer and Voice Bubble Popper) controlled entirely by voice (Web Speech API). It runs fully client-side, with no backend.
 
 ## Deployment URL / runnable artifact
-- **Live deployment:** _TODO - public link will be added after the team deploys the new build._
-- **AI Studio app:** _TODO - link will be added if the team publishes the app on AI Studio_
+- **Live deployment:** https://10.93.26.180:8085/ - hosted on the Innopolis VM, reachable from the Innopolis network/VPN. Open in Google Chrome and accept the self-signed certificate warning. The microphone needs a secure context; if the browser blocks it on the self-signed cert, the app still opens and navigation works (the smoke check below).
 - Source in this repository: runnable locally via `npm install && npm run dev` (see [root README -> Local setup](../../README.md#local-setup)).
 
 ## Public video demonstration
-_TODO - sanitized public video, < 2 minutes (to be recorded by the team)._
+- Sanitized public demonstration (< 2 minutes): https://disk.yandex.ru/i/3aCIJDDw9Tat4Q
 
 ## Relationship to the prototype and proposed MVP v1 stories
 MVP v0 already realizes parts of the proposed MVP v1 core loop:
@@ -31,12 +30,12 @@ The interactive prototype refines how these are presented as the proposed MVP v1
 See [root README -> Local setup](../../README.md#local-setup). No API key required.
 
 ## Repeatable smoke-check scenario
-**Type:** Web application (run locally until the public deployment link is added above).
+**Type:** Web application.
 
-**Access instructions:** clone this repository, run `npm install && npm run dev`, and open http://localhost:3000 in Google Chrome on a device with a microphone.
+**Access instructions:** open the deployment at https://10.93.26.180:8085/ in Google Chrome (from the Innopolis network/VPN) and accept the self-signed certificate warning. Alternatively, run locally: clone this repository, run `npm install && npm run dev`, and open http://localhost:3000 in Google Chrome on a device with a microphone.
 
 **Steps:**
-1. Open http://localhost:3000.
+1. Open the deployment URL (or http://localhost:3000 when running locally).
 2. Confirm the HUB screen renders with two game cards (Voice Racer, Voice Bubble Popper).
 3. Click **PLAY** on the Voice Racer card, then click **START HIGHWAY RACE!** and allow microphone access when prompted.
 4. Confirm the race track appears with lane target words and the microphone visualizer becomes active.
