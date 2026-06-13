@@ -5,7 +5,7 @@ MVP v0 is the runnable technical foundation of **Voice Games** - a browser-based
 
 ## Deployment URL / runnable artifact
 - **Live deployment:** https://10.93.26.180:8085/ - hosted on the Innopolis VM, reachable from the Innopolis network/VPN. Open in Google Chrome and accept the self-signed certificate warning. The microphone needs a secure context; if the browser blocks it on the self-signed cert, the app still opens and navigation works (the smoke check below).
-- Source in this repository: runnable locally via `npm install && npm run dev` (see [root README -> Local setup](../../README.md#local-setup)).
+- Source in this repository: runnable locally via `npm install && npm run dev` (see [root README -> Local setup](../../README.md#1-local-development-setup)).
 
 ## Public video demonstration
 - Sanitized public demonstration (< 2 minutes): https://disk.yandex.ru/i/3aCIJDDw9Tat4Q
@@ -23,11 +23,10 @@ The interactive prototype refines how these are presented as the proposed MVP v1
 ## Current limitations, placeholders, and mocks
 - **Chrome-only** voice recognition (Web Speech API); other browsers are not supported.
 - **Word matching:** the matcher in `src/utils.ts` (`matchesWord`) uses phonetic and prefix rules. Overly permissive matching undermines the pronunciation-learning goal and is tracked as an open question (see [analysis.md](./analysis.md), affects US-04 / US-06).
-- The `@google/genai` / `GEMINI_API_KEY` are leftovers from the AI Studio template and are **not** used by the game code.
 - No backend: stats and settings persist only in browser `localStorage`; there is no parent/teacher account, progress sync, or custom word-list management yet (US-10, US-11).
 
 ## Local setup instructions
-See [root README -> Local setup](../../README.md#local-setup). No API key required.
+See [root README -> Local setup](../../README.md#1-local-development-setup). No API key required.
 
 ## Repeatable smoke-check scenario
 **Type:** Web application.

@@ -2,8 +2,7 @@
 
 A browser-based **voice-controlled English learning portal for children**. The child speaks the target word to trigger in-game actions - **voice is the only controller**. Features two games: Voice Racer (lane racing) and Voice Bubble Popper, with more planned.
 
-- **Live MVP v0:** _TODO - link will be added after the team deploys the new build_
-- **AI Studio app:** _TODO - link will be added if the team publishes the app on AI Studio_
+- **Live MVP v0:** https://10.93.26.180:8085/ (hosted on the Innopolis VM; reachable from the Innopolis network/VPN, accept the self-signed certificate). See the [MVP v0 report](./reports/week2/mvp-v0-report.md) for the smoke check and access notes.
 - **License:** [MIT](./LICENSE) (see *Attribution* below)
 - **Assignment 2 submission index:** [reports/week2/README.md](./reports/week2/README.md)
 - **MVP v0 report:** [reports/week2/mvp-v0-report.md](./reports/week2/mvp-v0-report.md)
@@ -16,7 +15,7 @@ React 19 · Vite 6 · TypeScript · Tailwind CSS v4 · Web Speech API · Web Aud
 
 ---
 
-## 🛠 Setup & Deployment
+## Setup & Deployment
 
 No API key is required - the game runs fully client-side. Allow microphone access when prompted; voice recognition needs a secure context (`localhost` or HTTPS).
 
